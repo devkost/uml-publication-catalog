@@ -1,0 +1,34 @@
+@startuml
+top to bottom direction
+skinparam shadowing false
+
+object "edition1 : PrintedEdition" as edition1 {
+    name = "Сборник материалов"
+    pub_year = 2024
+}
+
+object "magazine1 : Magazine" as magazine1 {
+    name = "Наука и жизнь"
+    pub_year = 2024
+    release_num = 6
+    periodicity = "Ежемесячно"
+}
+
+object "book1 : Book" as book1 {
+    name = "Рассказы"
+    pub_year = 2023
+    author = "Иван Петров"
+    pages = 240
+}
+
+object "textbook1 : Textbook" as textbook1 {
+    name = "Алгебра"
+    pub_year = 2024
+    author = "Анна Смирнова"
+    pages = 256
+    subject = "Математика"
+    grade = 8
+}
+
+note "Объекты находятся в общей коллекции editions.\nИндексы: edition1 — 0; magazine1 — 1;\nbook1 — 2; textbook1 — 3." as collection_note
+@enduml

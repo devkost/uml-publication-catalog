@@ -1,0 +1,42 @@
+classDiagram
+    direction TB
+
+    class PrintedEdition {
+        +name: str
+        +pub_year: int
+        +__init__(name: str, pub_year: int)
+        +__eq__(other: object) bool
+        +__hash__() int
+        +__str__() str
+    }
+
+    class Magazine {
+        +release_num: int
+        +periodicity: str
+        +__init__(name: str, pub_year: int, release_num: int, periodicity: str)
+        +__eq__(other: object) bool
+        +__hash__() int
+        +__str__() str
+    }
+
+    class Book {
+        +author: str
+        +pages: int
+        +__init__(name: str, pub_year: int, author: str, pages: int)
+        +__eq__(other: object) bool
+        +__hash__() int
+        +__str__() str
+    }
+
+    class Textbook {
+        +subject: str
+        +grade: int
+        +__init__(name: str, pub_year: int, author: str, pages: int, subject: str, grade: int)
+        +__eq__(other: object) bool
+        +__hash__() int
+        +__str__() str
+    }
+
+    PrintedEdition <|-- Magazine
+    PrintedEdition <|-- Book
+    Book <|-- Textbook

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1220" viewBox="0 0 1600 1220"><title>UML: диаграмма объектов печатных изданий</title><rect width="1600" height="1220" fill="white"/><g font-family="Arial, sans-serif" font-size="18" fill="#162333">
+<text x="800" y="40" text-anchor="middle" font-size="28">UML: диаграмма объектов печатных изданий</text>
+<rect x="30" y="100" width="740" height="114" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="400.0" y="129" text-anchor="middle" font-weight="bold" text-decoration="underline">edition1 : PrintedEdition</text>
+<path d="M30,142 H770" stroke="#263d56"/>
+<text x="46" y="168">name = &#x27;Сборник материалов&#x27;</text>
+<text x="46" y="196">pub_year = 2024</text>
+<rect x="830" y="100" width="740" height="170" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="1200.0" y="129" text-anchor="middle" font-weight="bold" text-decoration="underline">magazine1 : Magazine</text>
+<path d="M830,142 H1570" stroke="#263d56"/>
+<text x="846" y="168">name = &#x27;Наука и жизнь&#x27;</text>
+<text x="846" y="196">pub_year = 2024</text>
+<text x="846" y="224">release_num = 6</text>
+<text x="846" y="252">periodicity = &#x27;Ежемесячно&#x27;</text>
+<rect x="30" y="500" width="740" height="170" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="400.0" y="529" text-anchor="middle" font-weight="bold" text-decoration="underline">book1 : Book</text>
+<path d="M30,542 H770" stroke="#263d56"/>
+<text x="46" y="568">name = &#x27;Рассказы&#x27;</text>
+<text x="46" y="596">pub_year = 2023</text>
+<text x="46" y="624">author = &#x27;Иван Петров&#x27;</text>
+<text x="46" y="652">pages = 240</text>
+<rect x="830" y="500" width="740" height="226" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="1200.0" y="529" text-anchor="middle" font-weight="bold" text-decoration="underline">textbook1 : Textbook</text>
+<path d="M830,542 H1570" stroke="#263d56"/>
+<text x="846" y="568">name = &#x27;Алгебра&#x27;</text>
+<text x="846" y="596">pub_year = 2024</text>
+<text x="846" y="624">author = &#x27;Анна Смирнова&#x27;</text>
+<text x="846" y="652">pages = 256</text>
+<text x="846" y="680">subject = &#x27;Математика&#x27;</text>
+<text x="846" y="708">grade = 8</text>
+<text x="40" y="960">Коллекция editions: [edition1, magazine1, book1, textbook1]. Индексы: 0, 1, 2, 3.</text>
+<text x="40" y="1000">Показаны все поля экземпляров, включая унаследованные.</text>
+<text x="40" y="1040">Наследование связывает классы; между экземплярами стрелки наследования не рисуются.</text></g></svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1220" viewBox="0 0 1600 1220"><title>UML: диаграмма классов печатных изданий</title><rect width="1600" height="1220" fill="white"/><g font-family="Arial, sans-serif" font-size="18" fill="#162333">
+<text x="800" y="40" text-anchor="middle" font-size="28">UML: диаграмма классов печатных изданий</text>
+<rect x="420" y="80" width="740" height="238" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="790.0" y="109" text-anchor="middle" font-weight="bold">PrintedEdition</text>
+<path d="M420,122 H1160" stroke="#263d56"/>
+<text x="436" y="148">+ name: str</text>
+<text x="436" y="176">+ pub_year: int</text>
+<path d="M420,190 H1160" stroke="#263d56"/>
+<text x="436" y="216">+ __init__(name: str, pub_year: int)</text>
+<text x="436" y="244">+ __eq__(other: object): bool</text>
+<text x="436" y="272">+ __hash__(): int</text>
+<text x="436" y="300">+ __str__(): str</text>
+<rect x="30" y="450" width="740" height="266" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="400.0" y="479" text-anchor="middle" font-weight="bold">Magazine</text>
+<path d="M30,492 H770" stroke="#263d56"/>
+<text x="46" y="518">+ release_num: int</text>
+<text x="46" y="546">+ periodicity: str</text>
+<path d="M30,560 H770" stroke="#263d56"/>
+<text x="46" y="586">+ __init__(name: str, pub_year: int,</text>
+<text x="46" y="614">    release_num: int, periodicity: str)</text>
+<text x="46" y="642">+ __eq__(other: object): bool</text>
+<text x="46" y="670">+ __hash__(): int</text>
+<text x="46" y="698">+ __str__(): str</text>
+<rect x="830" y="450" width="740" height="266" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="1200.0" y="479" text-anchor="middle" font-weight="bold">Book</text>
+<path d="M830,492 H1570" stroke="#263d56"/>
+<text x="846" y="518">+ author: str</text>
+<text x="846" y="546">+ pages: int</text>
+<path d="M830,560 H1570" stroke="#263d56"/>
+<text x="846" y="586">+ __init__(name: str, pub_year: int,</text>
+<text x="846" y="614">    author: str, pages: int)</text>
+<text x="846" y="642">+ __eq__(other: object): bool</text>
+<text x="846" y="670">+ __hash__(): int</text>
+<text x="846" y="698">+ __str__(): str</text>
+<rect x="830" y="840" width="740" height="294" fill="#f5f8fc" stroke="#263d56" stroke-width="2"/>
+<text x="1200.0" y="869" text-anchor="middle" font-weight="bold">Textbook</text>
+<path d="M830,882 H1570" stroke="#263d56"/>
+<text x="846" y="908">+ subject: str</text>
+<text x="846" y="936">+ grade: int</text>
+<path d="M830,950 H1570" stroke="#263d56"/>
+<text x="846" y="976">+ __init__(name: str, pub_year: int,</text>
+<text x="846" y="1004">    author: str, pages: int,</text>
+<text x="846" y="1032">    subject: str, grade: int)</text>
+<text x="846" y="1060">+ __eq__(other: object): bool</text>
+<text x="846" y="1088">+ __hash__(): int</text>
+<text x="846" y="1116">+ __str__(): str</text>
+<g fill="none" stroke="#263d56" stroke-width="2"><path d="M400 450 V370 H790 V338 M1200 450 V370 H790"/><path d="M790 318 L778 338 H802 Z" fill="white"/><path d="M1200 840 V736"/><path d="M1200 716 L1188 736 H1212 Z" fill="white"/></g>
+<text x="40" y="1170">+ — публичный член; треугольник направлен к родительскому классу.</text>
+<text x="40" y="1200">Значения по умолчанию опущены; у наследников показаны собственные поля.</text></g></svg>
